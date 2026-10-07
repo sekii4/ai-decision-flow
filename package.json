@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "inngest": "npx --yes inngest-cli@latest dev -u http://localhost:3000/api/inngest"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.16",
